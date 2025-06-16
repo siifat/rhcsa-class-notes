@@ -87,11 +87,13 @@ crontab -l
 **Solution:**
 
 **Step 1: Reboot your system and wait for GRUB screen**
+
 You may see a screen like this:
 ![[{893D2C8A-72FF-42A5-BF80-D77CEFB67123}.png]]
 Now Press `e` to edit the boot commands.
 
 **Step 2: Edit the command and boot into command list**
+
 After you pressed `e`, you'll be greeted with a screen like this:
 ![[{FA0B5DA6-563E-45E5-98CE-CF37AEF5A246}.png]]
 
@@ -99,6 +101,7 @@ Go to the last line of `linux` and add `rd.break`.
 Then Press `Ctrl + X`
 
 **Step 3: Remount `/sysroot`**
+
 We're in **Emergency Mode** now. You'll see a screen like this:
 ![[{16E32528-202E-4EE9-ADDF-1AB07FD14DA9}.png]]
 
