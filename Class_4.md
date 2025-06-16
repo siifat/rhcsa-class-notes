@@ -155,7 +155,7 @@ firewall-cmd --add-service=http --permanent
 We can add different types of services here:
 - http
 - ftp
-- smtp (Simple Main Transfer Protocol)
+- smtp (Simple Mail Transfer Protocol)
 - imap
 - pop (Post Office Protocol)
 
