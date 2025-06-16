@@ -89,6 +89,7 @@ crontab -l
 **Step 1: Reboot your system and wait for GRUB screen**
 
 You may see a screen like this:
+
 ![](https://i.imgur.com/JhDF21E.png)
 
 Now Press `e` to edit the boot commands.
@@ -96,11 +97,13 @@ Now Press `e` to edit the boot commands.
 **Step 2: Edit the command and boot into command list**
 
 After you pressed `e`, you'll be greeted with a screen like this:
+
 ![](https://i.imgur.com/aWVaY3n.png)
 
 Go to the last line of `linux` and add `rd.break`.
 
 The final command should look like this:
+
 ![](https://i.imgur.com/qv2UIbc.png)
 
 Then Press `Ctrl + X`
@@ -108,6 +111,7 @@ Then Press `Ctrl + X`
 **Step 3: Remount `/sysroot`**
 
 We're in **Emergency Mode** now. You'll see a screen like this:
+
 ![](https://i.imgur.com/uYUi3B1.png)
 
 `sysroot` is already mounted. However, we want to remount it in read/write mode.
