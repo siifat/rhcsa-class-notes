@@ -222,5 +222,5 @@ Add the user you'd like to grant SUDO privileges:
 ```bash
 ## Allow root to run any commands anywhere 
 root    ALL=(ALL)       ALL
-server  ALL=(ALL)       ALL
+server  ALL=(ALL)       ALL  # Grant the user `server` SUDO privilege
 ```
