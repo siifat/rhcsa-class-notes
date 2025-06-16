@@ -89,13 +89,14 @@ crontab -l
 **Step 1: Reboot your system and wait for GRUB screen**
 
 You may see a screen like this:
-![[{893D2C8A-72FF-42A5-BF80-D77CEFB67123}.png]]
+![[{893D2C8A-72FF-42A5-BF80-D77CEFB67123}.png]]<br>
+
 Now Press `e` to edit the boot commands.
 
 **Step 2: Edit the command and boot into command list**
 
 After you pressed `e`, you'll be greeted with a screen like this:
-![[{FA0B5DA6-563E-45E5-98CE-CF37AEF5A246}.png]]
+![[{FA0B5DA6-563E-45E5-98CE-CF37AEF5A246}.png]]<br>
 
 Go to the last line of `linux` and add `rd.break`.<br>
 Then Press `Ctrl + X`
@@ -116,8 +117,9 @@ chroot /sysroot
 ```
 
 ```bash
-passwd uiu12345
+passwd
 ```
+Set the password to `uiu12345`
 
 **Step 5: Create a supporting password file and exit chroot**
 ```bash
