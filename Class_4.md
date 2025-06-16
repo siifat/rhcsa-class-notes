@@ -97,8 +97,7 @@ Now Press `e` to edit the boot commands.
 After you pressed `e`, you'll be greeted with a screen like this:
 ![[{FA0B5DA6-563E-45E5-98CE-CF37AEF5A246}.png]]
 
-Go to the last line of `linux` and add `rd.break`.  
-
+Go to the last line of `linux` and add `rd.break`.<br>
 Then Press `Ctrl + X`
 
 **Step 3: Remount `/sysroot`**
